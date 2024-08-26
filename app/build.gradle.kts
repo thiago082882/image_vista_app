@@ -24,9 +24,9 @@ android {
         vectorDrawables {
             useSupportLibrary = true
         }
-//        val properties = Properties()
-//        properties.load(project.rootProject.file("local.properties").inputStream())
-//        buildConfigField("String", "UNSPLASH_API_KEY", properties.getProperty("UNSPLASH_API_KEY"))
+        val properties = Properties()
+       properties.load(project.rootProject.file("local.properties").inputStream())
+       buildConfigField("String", "UNSPLASH_API_KEY", properties.getProperty("UNSPLASH_API_KEY"))
     }
 
     buildTypes {

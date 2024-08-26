@@ -1,12 +1,13 @@
 package br.thiago.imagevista.data.util
 
+import br.thiago.imagevista.BuildConfig
 
 
 object Constants {
 
     const val IV_LOG_TAG = "ImageVistaLogs"
 
-   const val API_KEY = "5I2kij3PtBhDbsLh4RlKKiUomDOczBkttrNhjX2sa6E"
+   const val API_KEY = BuildConfig.UNSPLASH_API_KEY
     const val BASE_URL = "https://api.unsplash.com/"
 
     const val IMAGE_VISTA_DATABASE = "unsplash_images.db"
